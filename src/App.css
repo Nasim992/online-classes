@@ -1,5 +1,20 @@
 .App {
   text-align: center;
+  display:flex !important;
+  flex-wrap:wrap;
+}
+.body {
+  background-color : whitesmoke;
+}
+.courses {
+  flex-basis: 80% !important;
+
+  max-width: 80% !important;
+}
+.cart {
+  flex-basis: 20% !important;
+
+  max-width: 20% !important;
 }
 
 .App-logo {
@@ -35,4 +50,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+li {
+  color : red;
+  font-weight:700;
+}
+h2 {
+  font-weight : bold;
+  color:rgb(5, 39, 134);
+}
+h3 {
+  color : rgb(141, 141, 6);
+  font-weight : bold;
 }
